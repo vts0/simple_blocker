@@ -12,7 +12,7 @@ A lightweight and privacy-friendly Chrome extension to block access to specific 
 ## 🖥 How It Works
 
 1. You click the extension icon.
-2. Enter a domain like `facebook.com` and press **Block**.
+2. Enter a domain like `example.com` and press **Block**.
 3. The site is now blocked — any navigation attempt will be blocked instantly.
 
 Under the hood:
@@ -33,10 +33,3 @@ Under the hood:
 3. Enable **Developer mode** (top right).
 4. Click **Load unpacked** and select the extension folder.
 5. Done! Click the extension icon and start blocking.
-
-## ❓ Example
-
-- Block `instagram.com`:
-  - Type `instagram.com` in the popup input.
-  - Click **Block**.
-  - Visiting `https://instagram.com` will now show a blocked page.
