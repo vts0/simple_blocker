@@ -20,18 +20,6 @@ Under the hood:
 - A background service worker syncs the domain list to Chrome's dynamic rules.
 - The rule blocks all `main_frame` requests (i.e. full page loads) to that domain.
 
-## 📁 Project Structure
-
-.
-├── manifest.json # Chrome Extension manifest (MV3)
-├── background.js # Service worker to manage blocking rules
-├── popup.html # UI layout for the extension popup
-└── popup.js # Logic for adding and displaying blocked domains
-
-markdown
-Copy
-Edit
-
 ## 🧪 Permissions
 
 - `declarativeNetRequest`: Needed to apply URL blocking rules.
