@@ -1,0 +1,19 @@
+<!doctype html>
+<title>Block site</title>
+<style>
+  body {
+    width: 220px;
+    min-height: 100px;
+    font: 14px/1.4 sans-serif;
+    margin: 10px;
+  }
+  input, button { width: 100%; box-sizing: border-box; margin-bottom: 6px; }
+  small { display: block; margin-top: 8px; color: #555; word-break: break-word; }
+</style>
+
+<input id="site" placeholder="example.com" autocomplete="off">
+<button id="add">Block</button>
+
+<small id="list">list empty</small>
+
+<script src="popup.js"></script>
