@@ -1,4 +1,4 @@
-# Simple URL Blocker (Chrome Extension)
+# Simple URL Blocker
 
 A lightweight and privacy-friendly Chrome extension to block access to specific websites with just a click.
 
